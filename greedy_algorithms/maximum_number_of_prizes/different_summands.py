@@ -19,7 +19,7 @@ def optimal_summands(n):
     sum = 0
     next_num = 1
     while sum < n:
-        if sum + 2 * next_num + 1 >= n:
+        if sum + 2 * next_num + 1 > n:
             summands.append(n - sum)
             break
         else:
