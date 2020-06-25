@@ -22,15 +22,10 @@ def largest_number(a):
         res += a.pop(largest_number_index)
     return res
 
-def is_greater_or_equal(num_str, comparison):
-    for index in range(len(comparison)):
-        comparee = num_str[index] if len(num_str) > index else num_str[-1]
-        if comparee > comparison[index]:
-            return True
-        elif comparee == comparison[index]:
-            next
-        else:
-            return False
+def is_greater_or_equal(num, largest_number):
+    concat1, concat2 = num + largest_number, largest_number + num
+    if int(concat2) > int(concat1):
+        return False
     return True
 
 if __name__ == '__main__':
