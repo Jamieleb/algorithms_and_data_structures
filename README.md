@@ -17,6 +17,6 @@
 - collecting_signatures (covering segments problem)
 - maximum_number_of_prizes
 - maximum_advertisement_revenue (largest sum of dot products)
-- maximum_salary (largest number by concatenating integeres)
+- maximum_salary (largest number by concatenating integers)
 
 ---
